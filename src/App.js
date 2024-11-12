@@ -12,14 +12,6 @@ const Counter = () => {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
-  const handleNextStep = () => {
-    setStep((s) => s + 1);
-  };
-
-  const handlePrevStep = () => {
-    setStep((s) => s - 1);
-  };
-
   const handleNextCount = () => {
     setCount((c) => c + step);
   };
