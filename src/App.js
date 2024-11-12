@@ -40,37 +40,5 @@ const Counter = () => {
   const date = currDate.getDate();
   const year = currDate.getFullYear();
 
-  // return (
-  //   <div
-  //     style={{
-  //       display: 'flex',
-  //       justifyContent: 'center',
-  //       alignItems: 'center',
-  //       flexDirection: 'column',
-  //       margin: 'auto',
-  //     }}
-  //   >
-  //     <div>
-  //       <button onClick={handlePrevStep}> - </button>
-  //       <span> Step: {step} </span>
-  //       <button onClick={handleNextStep}> + </button>
-  //     </div>
-  //     <div>
-  //       <button onClick={handlePrevCount}> - </button>
-  //       <span> Count: {count} </span>
-  //       <button onClick={handleNextCount}> + </button>
-  //     </div>
-  //     <p>
-  //       {count === 0
-  //         ? 'Today is '
-  //         : count > 0
-  //         ? `${count} days from today is `
-  //         : `${Math.abs(count)} days ago was `}
-  //       {day} {month} {date} {year}
-  //       {/* {step * count} days from today is  */}
-  //     </p>
-  //   </div>
-  // );
-
   return <div></div>;
 };
